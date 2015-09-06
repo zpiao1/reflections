@@ -1,0 +1,23 @@
+On windows CMD, I can use "FC file1 file2" to compare two files and find the differences. Windows cmd will list the differences seperately.
+On Mac or Ubuntu or UNIX terminal, I can use "diff -u file1 file2" to reach the same result, only differed by the way of displaying differences of the two files.
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A: By using diff we can only see the differences between the old file and the new file.
+It reduces the amount that we need to compare and takes away all the same parts, leaving the different part so that we can find bugs more easily.
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: If you want to retrieve some functions removed in the previous versions, keeping all the history will definitely help a lot since people cannot remember things for very long.
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A: Pros of commit: Provides flexibility to choose when to commit
+Cons of commit: Programmer needs to decide when to commit so that the change is neither too large nor too small.
+Pros of automatic saving: No need to save manually because sometimes people will forget.
+Cons of automatic saving: If I have made very small changes in a long term, there will be a lot of redudant histroies. 
+If I have made very large changes within a shourt time, there will be insufficient histories for me to chase the change.
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: Git is mainly for progrmming use, we will need to change several files at the same time if they are related. 
+Google Docs is mainly for people to edit texts and they have less chance to change several files concurrently.
+Q: How can you use the commands git log and git diff to view the history of files?
+A: Run command "git log" to show all the histories as well as their commit ids, dates and authors.
+Using "git diff <id1> <id2>" to find differences between them.
+Q: How might using version control make you more confident to make changes that could break something?
+A: Once I have unconsciously introduced a bug, I can go back to the previous version and find where has gone wrong.
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: Create an android app.
