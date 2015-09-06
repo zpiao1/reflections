@@ -6,3 +6,5 @@ A2: It is only created if I add files for being committed later. It is like a te
 Q3: How can you use the staging area to make sure you have one commit per logical change?
 A3: Use "git diff" to see the difference between the working directory and the staging area.
 Use "git diff --staged" to see the difference between the staging area and the most recent commit if under master.
+Q4: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A4: Add some features that I'm not so sure with or for other reasons. It is non-linear and I can switch to the branches while not changing the master, which is the most likely part that I will publish.
