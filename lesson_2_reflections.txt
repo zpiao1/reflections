@@ -3,3 +3,6 @@ A1: Output shows "Initialized empty Git repository in C:/Users/zpiao/version-con
 Need to do it because it is necessary so that git can keep my histories.
 Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A2: It is only created if I add files for being committed later. It is like a temporary directory then I can commit everything that I have added later.
+Q3: How can you use the staging area to make sure you have one commit per logical change?
+A3: Use "git diff" to see the difference between the working directory and the staging area.
+Use "git diff --staged" to see the difference between the staging area and the most recent commit if under master.
