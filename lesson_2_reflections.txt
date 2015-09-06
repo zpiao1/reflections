@@ -1,0 +1,3 @@
+Q1: What happens when you initialize a repository? Why do you need to do it?
+A1: Output shows "Initialized empty Git repository in C:/Users/zpiao/version-control/reflections/.git/". 
+Need to do it because it is necessary so that git can keep my histories.
