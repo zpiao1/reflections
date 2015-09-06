@@ -1,3 +1,5 @@
 Q1: What happens when you initialize a repository? Why do you need to do it?
 A1: Output shows "Initialized empty Git repository in C:/Users/zpiao/version-control/reflections/.git/". 
 Need to do it because it is necessary so that git can keep my histories.
+Q2: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A2: It is only created if I add files for being committed later. It is like a temporary directory then I can commit everything that I have added later.
