@@ -13,3 +13,6 @@ A5: Sometimes when I create a new branch, other people will create as well. I ca
 Q6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A6: Create a new commit that uses the latest commits of the branches indicated in the instruction as parents.
 We still want to trace the changes within each branch.
+Q7: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A7: Pros: Can save some work if there are parts that are modified in the same way and Git knows it should be the same in the merged file. 
+Cons: There are limits because Git cannot understand what the code is intended to do, it can only guess, which makes the merging not very accurate sometimes.
