@@ -10,3 +10,6 @@ Q4: What are some situations when branches would be helpful in keeping your hist
 A4: Add some features that I'm not so sure with or for other reasons. It is non-linear and I can switch to the branches while not changing the master, which is the most likely part that I will publish.
 Q5: How do the diagrams help you visualize the branch structure?
 A5: Sometimes when I create a new branch, other people will create as well. I can know what commit their branch is based on and merge later by using the diagrams. It helps me to manage the branches very well.
+Q6: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A6: Create a new commit that uses the latest commits of the branches indicated in the instruction as parents.
+We still want to trace the changes within each branch.
