@@ -9,3 +9,5 @@ Branches is to create a new commit for experimental use and not affecting the ma
 Fork is used in GitHub.
 Clone is used in my local computer.
 Branch is used when I want to create a non-master commit.
+Q4: What is the benefit of having a copy of the last known state of the remote stored locally?
+A4: That keeps the latest update of the remote and we can then compare the differences betweent the local repositories and the remote.
