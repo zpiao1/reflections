@@ -13,3 +13,5 @@ Q4: What is the benefit of having a copy of the last known state of the remote s
 A4: That keeps the latest update of the remote and we can then compare the differences betweent the local repositories and the remote.
 Q5: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A5: I have to send emails to other collaborators and ask them to update and merge. GitHub provides a platform so that the same process becomes easier.
+Q6: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A6: When I want to do something experimental and not publishing them in a short time, I would create a new branch because in this way the master branch is not affected unless I merge the two branched.
